@@ -1,7 +1,7 @@
 
 
 
-# <img src="doc/logo/logo.png" alt="2D-PTV" width="207" height="125.3"  align="center"/>
+# <img src="doc/logo/logo.png" alt="2D-PTV" width="425" height="125.3"  align="center"/>
 Part2Track
 Matlab programm to perform two-dimensional particle tracking velocimetry
 (2D-PTV) on double-frame images and time-resolved image sequences.                 
