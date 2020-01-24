@@ -19,7 +19,7 @@ disp('Part2Track Post Processing.');
 
 %% Parameters
 % folder information
-dir_eval = '..\test_cases\time_resolved\Pipe\';
+dir_eval = '..\test_cases\double_frame\Lung\';
 dir_save = [dir_eval,'results\']; % folder to save results
 
 % image parameters

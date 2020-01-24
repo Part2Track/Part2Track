@@ -15,7 +15,7 @@ clear
 % include subroutines
 addpath(genpath('postprocessing'))
 addpath(genpath('tracking'))
-addpath(genpath('Z:\Software\Matlab\export_fig'))
+
 % Warnings
 warning('off','MATLAB:rankDeficientMatrix')
 spmd
@@ -26,14 +26,14 @@ end
 disp('Part2Track.');
 %% Measurement Parameters
 % folder information
-dir_eval = '..\test_cases\time_resolved\Pipe\';
+dir_eval = '..\test_cases\double_frame\Lung\';
 
 % define results folder
 dir_save = [dir_eval,'results\']; % folder to save results
 
 % load parameter file
 run([dir_eval,'parameter.m']);
-% options.track_method='nearest';
+
 % plotting options
 options.plot_int_results = 1; % Show intermediate results: 1-yes 0-no
 
@@ -202,6 +202,7 @@ axis off
 plot_var = u; % Variable to plot
 plot_var = plot_var/options.m*options.dt*1000; % Scale to pixel shift
 f_post_check_peak_locking(plot_var)
+
 %% Interpolate on grid
 grid_win = 8;
 iw_mult = 2;
