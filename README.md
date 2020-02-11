@@ -8,8 +8,8 @@ Matlab programm to perform two-dimensional particle tracking velocimetry
 
 Published in:
 
-T. Janke, R. Schwarze, K.Bauer
-Part2Track: A MATLAB package for double frame and time resolved Particle Tracking Velocimetry
+T. Janke, R. Schwarze, K.Bauer:  
+Part2Track: A MATLAB package for double frame and time resolved Particle Tracking Velocimetry  
 SoftwareX, 11:100413, 2020
 DOI: [10.1016/j.softx.2020.100413](https://doi.org/10.1016/j.softx.2020.100413)
 
