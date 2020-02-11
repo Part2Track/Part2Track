@@ -6,6 +6,13 @@ Part2Track
 Matlab programm to perform two-dimensional particle tracking velocimetry
 (2D-PTV) on double-frame images and time-resolved image sequences.                 
 
+Published in:
+
+T. Janke, R. Schwarze, K.Bauer
+Part2Track: A MATLAB package for double frame and time resolved Particle Tracking Velocimetry
+SoftwareX, 11:100413, 2020
+DOI: [10.1016/j.softx.2020.100413](https://doi.org/10.1016/j.softx.2020.100413)
+
 ## Acquisition Modes
 * Double-Frame
 * Time-Resolved
